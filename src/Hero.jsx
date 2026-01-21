@@ -1,5 +1,9 @@
 import useReveal from "./hooks/useReveal";
 import heroimg from "./assets/one.jpg"
+import Footer from "./components/Footer";
+import Skills from "./components/Skills";
+import Services from "./components/Services";
+import Projects from "./components/Projects";
 
 export default function Hero() {
   useReveal();
@@ -30,6 +34,10 @@ export default function Hero() {
           <img src={heroimg} alt="Hero"/>
         </div>
       </div>
+      <Skills/>
+      <Services/>
+      <Projects/>
+      <Footer/>
       
     </>
   );

@@ -1,9 +1,11 @@
 import useReveal from "../hooks/useReveal";
+import Footer from "./Footer";
 
 export default function Contact() {
   useReveal();
 
   return (
+    <> 
     <section id="contact" className="contact-section reveal">
       <h2 className="contact-heading">
         Contact <span>Me</span>
@@ -44,5 +46,7 @@ export default function Contact() {
         </div>
       </div>
     </section>
+     <Footer/>
+     </>
   );
 }

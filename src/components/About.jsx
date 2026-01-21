@@ -1,10 +1,12 @@
 import useReveal from "../hooks/useReveal";
 import aboutimg from "../assets/two.jpg"
+import Footer from "./Footer";
 
 export default function About() {
   useReveal();
 
   return (
+    <> 
     <section id="about" className="about-section reveal">
       <h2 className="about-title">
         About <span>Me</span>
@@ -32,7 +34,10 @@ export default function About() {
             products that make an impact.
           </p>
         </div>
-      </div>
+      </div>   
     </section>
+     <Footer/>
+     </>
+
   );
 }

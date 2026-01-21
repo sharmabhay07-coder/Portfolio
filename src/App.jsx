@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom"
+import { Routes, Route, RouterProvider, createBrowserRouter } from "react-router-dom"
 import Hero from "./Hero";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
@@ -9,16 +9,41 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element:
+        <>
+          <Navbar />
+          <Hero />
+          
+        </>
+    }, {
+      path: "/about",
+      element: <>
+        <Navbar />
+        <About />
+      </>,
+    
+    }, {
+      path: "/contact",
+      element: <>
+        <Navbar />
+        <Contact />
+      </>
+    }])
+
+  
   return (
     <>
-      <Navbar />
+    <RouterProvider router={router}/>
+      {/* <Navbar />
       <Hero/>
       <About/>
-      <Skills/>
-      <Services/>
-      <Projects/>
+      
       <Contact/>
-      <Footer/>
+      <Footer/> */}
 
     </>
   );
