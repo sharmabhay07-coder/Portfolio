@@ -11,7 +11,6 @@ export default function Navbar() {
         <div className="home-a"><a href="#project">Projects</a></div>
         <div className="home-a"><a href="#skills">Skills</a></div>
         <div className="home-a"><a href="#about">About</a></div>
-        
       </div>
 
       <div className="contact">
