@@ -1,12 +1,14 @@
 import useReveal from "../hooks/useReveal";
 import aboutimg from "../assets/two.jpg"
 import Footer from "./Footer";
+import Publiclayout from "./Publiclayout";
 
 export default function About() {
   useReveal();
 
   return (
     <> 
+    <Publiclayout> 
     <section id="about" className="about-section reveal">
       <h2 className="about-title">
         About <span>Me</span>
@@ -36,7 +38,7 @@ export default function About() {
         </div>
       </div>   
     </section>
-     <Footer/>
+     </Publiclayout>
      </>
 
   );

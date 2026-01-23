@@ -1,15 +1,16 @@
 import useReveal from "./hooks/useReveal";
 import heroimg from "./assets/one.jpg"
-import Footer from "./components/Footer";
 import Skills from "./components/Skills";
 import Services from "./components/Services";
 import Projects from "./components/Projects";
+import Publiclayout from "./components/Publiclayout";
 
 export default function Hero() {
   useReveal();
 
   return (
     <>
+    <Publiclayout> 
       <div className="main" id="home">
         <div className="icons">
           <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" />
@@ -37,7 +38,7 @@ export default function Hero() {
       <Skills/>
       <Services/>
       <Projects/>
-      <Footer/>
+      </Publiclayout>
       
     </>
   );
