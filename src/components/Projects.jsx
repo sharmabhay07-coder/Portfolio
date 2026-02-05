@@ -10,18 +10,22 @@ export default function Projects() {
       </h2>
 
       <div className="project-container">
+
         {/* Project 1 */}
         <div className="project-card">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPd8r_wImVXYsPCr20z52MbV1OGUPuj7RRrQ&s" alt="Portfolio Project" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPd8r_wImVXYsPCr20z52MbV1OGUPuj7RRrQ&s"
+            alt="Portfolio Website"
+          />
           <div className="project-info">
             <h3>Portfolio Website</h3>
             <p>
-              A clean and modern personal portfolio built using HTML and CSS
-              showcasing my skills and work.
+              Personal portfolio website designed and developed to showcase my
+              skills, projects, and learning journey. Built with a focus on
+              clean UI, responsive layouts, and smooth user experience.
             </p>
-            <a href="#" className="project-btn">
-              View Project
-            </a>
+            <p><strong>Tech Used:</strong> HTML, CSS</p>
+            <a href="#" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -34,12 +38,12 @@ export default function Projects() {
           <div className="project-info">
             <h3>Landing Page</h3>
             <p>
-              Responsive landing page with smooth layout, gradients, and
-              interactive UI components.
+              Responsive landing page created using modern HTML and CSS
+              practices. Focused on layout structure, visual hierarchy, and
+              mobile-first design to improve user engagement.
             </p>
-            <a href="#" className="project-btn">
-              View Project
-            </a>
+            <p><strong>Tech Used:</strong> HTML, CSS</p>
+            <a href="#" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -50,16 +54,17 @@ export default function Projects() {
             alt="Netflix Clone"
           />
           <div className="project-info">
-            <h3>Netflix Page</h3>
+            <h3>Netflix UI Clone</h3>
             <p>
-              Created a Netflix page using HTML and CSS showcasing my skills and
-              work.
+              Netflix homepage UI clone built to practice advanced CSS layouts,
+              responsive design, and component-based page structure inspired by
+              real-world applications.
             </p>
-            <a href="#" className="project-btn">
-              View Project
-            </a>
+            <p><strong>Tech Used:</strong> HTML, CSS</p>
+            <a href="#" className="project-btn">View Project</a>
           </div>
         </div>
+
       </div>
     </section>
   );

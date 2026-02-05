@@ -10,36 +10,45 @@ export default function Hero() {
 
   return (
     <>
-    <Publiclayout> 
-      <div className="main" id="home">
-        <div className="icons">
-          <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" />
-          <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" />
-          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" /> 
-          <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" />
-        </div>
+      <Publiclayout>
+        <div className="main" id="home">
+          <div className="icons">
+            <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" />
+            <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" />
+            <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" />
+            <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" />
+          </div>
 
-        <div className="text">
-          <h2>
-            Hi, I am <span className="highlight">Abhay Sharma</span>
-          </h2>
-          <p>
-            Hi, I'm Abhay Sharma — a passionate web developer who loves turning
-            ideas into clean, functional, and visually appealing digital experiences.
-            I focus on writing simple, neat code and creating user-friendly designs that work smoothly across all
-            devices.
-          </p>
-        </div>
+          <div className="text">
+            <h2>
+              Hi, I am <span className="highlight">Abhay Sharma</span>
+            </h2>
 
-        <div className="image">
-          <img src={heroimg} alt="Hero"/>
+            <h3 style={{ color: "#bec3ea", marginBottom: "15px" }}>
+              Frontend / React Developer
+            </h3>
+
+            <p>
+              I build clean, responsive, and user-focused web interfaces using
+              HTML, CSS, JavaScript, and React.
+              I enjoy turning ideas into real, working products and continuously
+              improving my frontend skills through hands-on projects.
+            </p>
+
+            <a href="#project" className="project-btn">
+              View My Projects
+            </a>
+          </div>
+
+          <div className="image">
+            <img src={heroimg} alt="Hero" />
+          </div>
         </div>
-      </div>
-      <Skills/>
-      <Services/>
-      <Projects/>
+        <Skills />
+        <Services />
+        <Projects />
       </Publiclayout>
-      
+
     </>
   );
 }
