@@ -15,7 +15,7 @@ export default function Hero() {
         <div className="icons">
           <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" />
           <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" />
-          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" />
+          <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" /> 
           <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" />
         </div>
 

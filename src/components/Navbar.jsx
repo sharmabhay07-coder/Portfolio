@@ -1,10 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/logo.png"
 
 export default function Navbar() {
+const navigate = useNavigate();
+
   return (
     <div className="navbar">
-      <img src={logo} alt="logo"/>
+      <img src={logo} alt="logo" onClick={()=> {navigate("/")}}/>
 
       <div className="home">
         <div className="home-a"> <Link to="/">Home</Link> </div>

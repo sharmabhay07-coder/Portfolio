@@ -8,7 +8,7 @@ export default function Footer() {
           <p>
             Web Developer | Designer | Tech Learner
             <br />
-            Building clean and modern digital experiences.
+           Open to internships & Junior Front-end roles.
           </p>
         </div>
 
