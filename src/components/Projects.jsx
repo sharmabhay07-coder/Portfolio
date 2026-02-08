@@ -61,7 +61,7 @@ export default function Projects() {
               real-world applications.
             </p>
             <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="#" className="project-btn">View Project</a>
+            <a href="https://sharmabhay07-coder.github.io/Netflix_Clone/" className="project-btn">View Project</a>
           </div>
         </div>
 
