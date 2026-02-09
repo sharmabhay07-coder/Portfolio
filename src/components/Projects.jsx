@@ -24,8 +24,8 @@ export default function Projects() {
               skills, projects, and learning journey. Built with a focus on
               clean UI, responsive layouts, and smooth user experience.
             </p>
-            <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="#" className="project-btn">View Project</a>
+            <p><strong>Tech Used:</strong> React,CSS,JS</p>
+            <a href="meek-cendol-65b827.netlify.app" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -61,7 +61,7 @@ export default function Projects() {
               real-world applications.
             </p>
             <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="https://sharmabhay07-coder.github.io/Netflix_Clone/" className="project-btn">View Project</a>
+            <a href="splendid-stardust-a34491.netlify.app" className="project-btn">View Project</a>
           </div>
         </div>
 
