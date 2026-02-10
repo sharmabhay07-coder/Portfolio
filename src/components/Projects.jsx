@@ -25,7 +25,7 @@ export default function Projects() {
               clean UI, responsive layouts, and smooth user experience.
             </p>
             <p><strong>Tech Used:</strong> React,CSS,JS</p>
-            <a href="meek-cendol-65b827.netlify.app" className="project-btn">View Project</a>
+            <a href="https://meek-cendol-65b827.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -61,9 +61,10 @@ export default function Projects() {
               real-world applications.
             </p>
             <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="splendid-stardust-a34491.netlify.app" className="project-btn">View Project</a>
+            <a href="https://splendid-stardust-a34491.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
+        
 
       </div>
     </section>
