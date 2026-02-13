@@ -1,4 +1,5 @@
 import useReveal from "../hooks/useReveal";
+import img from "../assets/progress.png"
 
 export default function Projects() {
   useReveal();
@@ -32,18 +33,19 @@ export default function Projects() {
         {/* Project 2 */}
         <div className="project-card">
           <img
-            src="https://media.designrush.com/inspiration_images/136768/conversions/_1524503075_233_Amazon-Website-Design-Homepage-desktop.jpg"
-            alt="Landing Page"
+            src={img}
+            alt="Progress Simulator"
           />
           <div className="project-info">
-            <h3>Landing Page</h3>
+            <h3>Progress Simulator</h3>
             <p>
-              Responsive landing page created using modern HTML and CSS
-              practices. Focused on layout structure, visual hierarchy, and
-              mobile-first design to improve user engagement.
+              A progress simulator web app that estimates how much a user can
+              improve in a skill based on the time they plan to invest.
+              Built to practice DOM manipulation, user input handling,
+              and dynamic progress visualization.
             </p>
-            <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="#" className="project-btn">View Project</a>
+            <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
+            <a href="https://dazzling-scone-f21033.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -64,7 +66,7 @@ export default function Projects() {
             <a href="https://splendid-stardust-a34491.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
-        
+
 
       </div>
     </section>

@@ -37,7 +37,6 @@ export default function Navbar() {
         <div className="home-a" onClick={closeMenu}><a href="#skills">Skills</a></div>
         <div className="home-a" onClick={closeMenu}><Link to="/about">About</Link></div>
         
-        {/* Contact link also appears in mobile menu */}
         <div className="home-a mobile-only" onClick={closeMenu}>
           <Link to="/contact">Contact</Link>
         </div>
