@@ -27,10 +27,9 @@ export default function Footer() {
         <div className="footer-social">
           <h4>Follow Me</h4>
           <div className="social-icons">
-            <a href="#"><i className="fa-brands fa-facebook"></i></a>
-            <a href="#"><i className="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/abhay-sharma-a637a237a/"><i className="fa-brands fa-linkedin"></i></a>
             <a href="#"><i className="fa-brands fa-instagram"></i></a>
-            <a href="#"><i className="fa-brands fa-github"></i></a>
+            <a href="https://github.com/sharmabhay07-coder"><i className="fa-brands fa-github"></i></a>
           </div>
         </div>
 

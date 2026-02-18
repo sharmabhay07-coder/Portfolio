@@ -13,10 +13,9 @@ export default function Hero() {
       <Publiclayout>
         <div className="main" id="home">
           <div className="icons">
-            <img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" />
-            <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png" />
-            <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" />
-            <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" />
+            <a href="https://github.com/sharmabhay07-coder"> <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png"/> </a>
+            <a href=""> <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"/></a>
+            <a href="https://www.linkedin.com/in/abhay-sharma-a637a237a/"> <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"/></a>
           </div>
 
           <div className="text">
