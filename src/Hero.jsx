@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="main" id="home">
           <div className="icons">
             <a href="https://github.com/sharmabhay07-coder"> <img src="https://cdn-icons-png.flaticon.com/128/733/733553.png"/> </a>
-            <a href=""> <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"/></a>
+            <a href="https://www.instagram.com/abhay_sharma07_/"> <img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png"/></a>
             <a href="https://www.linkedin.com/in/abhay-sharma-a637a237a/"> <img src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png"/></a>
           </div>
 
