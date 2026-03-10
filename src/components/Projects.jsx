@@ -64,7 +64,7 @@ export default function Projects() {
             </p>
             <p><strong>Tech Used:</strong> React, JavaScript, Groq API, CSS</p>
 
-            <a href="https://hasty-ai-chat.netlify.app/" className="project-btn">View Project</a>
+            <a href="https://69affa35b63e32e600f6a244--hasty-ai-chat.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
