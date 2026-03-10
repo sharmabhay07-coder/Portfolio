@@ -52,18 +52,19 @@ export default function Projects() {
         {/* Project 3 */}
         <div className="project-card">
           <img
-            src="https://repository-images.githubusercontent.com/587606503/2e0422ac-0946-4ff1-a4b4-373f691463ae"
-            alt="Netflix Clone"
+            src="https://chatgen.ai/wp-content/uploads/2023/04/AI-chat-5.png"
+            alt="Ai ChatBot"
           />
           <div className="project-info">
-            <h3>Netflix UI Clone</h3>
+            <h3>AI Chatbot (Hasty)</h3>
             <p>
-              Netflix homepage UI clone built to practice advanced CSS layouts,
-              responsive design, and component-based page structure inspired by
-              real-world applications.
+              An AI-powered chatbot that allows users to ask questions and receive
+              real-time responses. Features a clean chat interface, typing animation,
+              emoji support, and theme switching.
             </p>
-            <p><strong>Tech Used:</strong> HTML, CSS</p>
-            <a href="https://splendid-stardust-a34491.netlify.app/" className="project-btn">View Project</a>
+            <p><strong>Tech Used:</strong> React, JavaScript, Groq API, CSS</p>
+
+            <a href="https://hasty-ai-chat.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
