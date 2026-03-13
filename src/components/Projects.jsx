@@ -26,7 +26,7 @@ export default function Projects() {
               clean UI, responsive layouts, and smooth user experience.
             </p>
             <p><strong>Tech Used:</strong> React,CSS,JS</p>
-            <a href="https://meek-cendol-65b827.netlify.app/" className="project-btn">View Project</a>
+            <a href="https://7portfolio07.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -45,7 +45,7 @@ export default function Projects() {
               and dynamic progress visualization.
             </p>
             <p><strong>Tech Used:</strong> HTML, CSS, JavaScript</p>
-            <a href="https://dazzling-scone-f21033.netlify.app/" className="project-btn">View Project</a>
+            <a href="https://progresssimulator.netlify.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ export default function Projects() {
             </p>
             <p><strong>Tech Used:</strong> React, JavaScript, Groq API, CSS</p>
 
-            <a href="https://69affa35b63e32e600f6a244--hasty-ai-chat.netlify.app/" className="project-btn">View Project</a>
+            <a href="https://hastyaibot.netlify.app/ " className="project-btn">View Project</a>
           </div>
         </div>
 
