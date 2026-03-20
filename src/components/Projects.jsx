@@ -15,18 +15,17 @@ export default function Projects() {
         {/* Project 1 */}
         <div className="project-card">
           <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPd8r_wImVXYsPCr20z52MbV1OGUPuj7RRrQ&s"
-            alt="Portfolio Website"
+            src="https://png.pngtree.com/png-vector/20250205/ourlarge/pngtree-portfolio-background-images-hd-pictures-for-free-vectors-download-png-image_15372310.png"
+            alt="Background Remover Tool"
           />
           <div className="project-info">
-            <h3>Portfolio Website</h3>
+            <h3>Background Remover Tool</h3>
             <p>
-              Personal portfolio website designed and developed to showcase my
-              skills, projects, and learning journey. Built with a focus on
-              clean UI, responsive layouts, and smooth user experience.
+              A web-based image editing tool that allows users to instantly remove backgrounds and customize images with solid colors or custom backgrounds.
+              Built with a focus on smooth user experience, fast processing, and real-time preview.
             </p>
-            <p><strong>Tech Used:</strong> React,CSS,JS</p>
-            <a href="https://7portfolio07.netlify.app/" className="project-btn">View Project</a>
+            <p><strong>Tech Used:</strong> React, JavaScript, CSS, API Integration</p>
+            <a href="https://background-remover-phi-two.vercel.app/" className="project-btn">View Project</a>
           </div>
         </div>
 
